@@ -1,0 +1,10 @@
+
+// logo ICON "bitmaps/logo.bmp"
+
+start BITMAP "bitmaps/start.bmp"
+stop BITMAP "bitmaps/stop.bmp"
+slow BITMAP "bitmaps/slow.bmp"
+fast BITMAP "bitmaps/fast.bmp"
+spinup BITMAP "bitmaps/spinup.bmp"
+spindown BITMAP "bitmaps/spindown.bmp"
+

@@ -1,0 +1,6 @@
+__WXMSW__=1
+WXCCFLAGS=-I"f:\wx2\include"
+WXLIBS=-L"f:\wx2\lib"
+CXXFLAGS=$(WXCCFLAGS)
+monte-carlo.exe: monte-carlo.cpp monte-carlo.hh basic-lattice.cc basic-lattice.hh spin.hh spin.cc wx-spin.cc wx-spin.hh wx-lattice.cc wx-lattice.hh wx-table-sizer.cc wx-table-sizer.hh start.xpm stop.xpm fast.xpm slow.xpm
+	bcc32 $(CXXFLAGS) $(WXLIBS) monte-carlo.cpp -o monte-carlo.exe
